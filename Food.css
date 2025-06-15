@@ -1,0 +1,49 @@
+.top{
+   width: 80%;
+   height: 600px;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    
+}
+.one{
+    width: 20%;
+    height: 550px;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.two{
+    width: 20%;
+    height: 500px;
+    /* border: 2px solid green; */
+    display: inline-block;
+    margin-left: 50px;
+
+}
+.three{
+    width: 20%;
+    height: 500px;
+    /* border: 2px solid brown; */
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.four{
+    width: 20%;
+    height: 600px;
+    display: inline-block;
+    /* border: 2px solid burlywood; */
+    margin-left: 50px;
+    padding-top: 50px;
+   
+   
+
+}
+img{
+    width: 100%;
+}
+
+#new{
+  font-style: solid;
+}
