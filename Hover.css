@@ -1,0 +1,88 @@
+body{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    gap: 50px;
+    
+}
+.sub{
+    height: 250px;
+    width: 20%;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* border-radius: 30px; */
+  /* /* padding: 20px; */
+}
+img{
+    width: 100%;
+    border-radius: 30px;
+}
+p{
+    display: none;
+    height: 200px;
+    width: 20%;
+    font-size: 20px;
+    color: black;
+    justify-content: center;
+   
+    
+}
+.child1:hover img{
+    display: none;
+}
+.child1:hover p{
+    display: block;
+
+}
+.child1:hover{
+    background-color: rgb(232, 24, 73);
+    border-radius: 30px;
+}
+.child2:hover img{
+    display: none;
+}
+.child2:hover p{
+   display: block;
+   text-align: center;
+}
+
+.child2:hover{
+    background-color: lightgreen;
+    border-radius: 30px;
+}
+.child3:hover img{
+    display: none;
+}
+.child3:hover p{
+    display: block;
+    text-align: center;
+}
+.child3:hover{
+    background-color: lightsalmon;
+    border-radius: 30px;
+}
+.child4:hover img{
+    display: none;
+}
+.child4:hover p{
+    display: inline;
+    text-align: center;
+}
+.child4:hover{
+    background-color: lightskyblue;
+    border-radius: 30px;
+}
+
+
