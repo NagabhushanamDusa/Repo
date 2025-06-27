@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+           
+        }
+        .container{
+            height: 300px;
+            width: 300px;
+            /* background-color: brown; */
+            /* transition-duration: 2s; */
+            /* transform-style: flat; */
+            /* transition: all 5s ease; */
+            background: crimson; 
+            animation: X 4s ease-in-out 1s infinite ;
+           
+       
+        
+            
+        }
+        .container:hover{
+            /* transform: translate(200px,200px); */
+            /* transform: scale(1.5,0.5);
+           background-color: black;
+           padding: 50px; */
+           /* transform: rotate(180deg); */
+           /* padding: 10px; */
+           /* transform: skew(150deg,150deg);
+           
+           background-color: green; */
+        }
+        /* @keyframes coding{
+            from{background-color: brown;}
+            to{background-color: blue;}
+            
+        } */@keyframes X{
+            0%{transform:translate(0px)}
+            20%{transform:scale(1.9,1.5);}
+            50%{transform: translate(500px,1000px);}
+            100%{transform: translate(2px);}
+
+        } 
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+    </div>
+
+    
+</body>
+</html>
