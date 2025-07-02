@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            /* border: 2px solid; */
+            gap: 10px;
+            display: grid;
+            grid-template-columns: 1fr 600px 1fr;
+            grid-template-rows: 100px 100px 100px 100px 100px;
+            
+            
+            
+        }
+        .A{
+           grid-column-start: 1;
+           grid-column-end: 4;
+            background-color:#e5eaf5;
+        }
+        .B{
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: #ffa8B6;
+            
+        }
+        .C{
+            grid-column-start: 2;
+            grid-column-end: 4;           
+            background-color: #ff1d58;
+        }
+        .D{
+            grid-column-start: 2;
+            grid-column-end: 4;      
+            background-color:#0049B7;
+        }
+        .E{
+             grid-column-start: 1;
+             grid-column-end: 4;
+            background-color:#51e2f5;
+        }
+
+        .item{
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+            
+        }
+
+   
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="A item">Header</div>
+      <div class="B item">Sidebar</div>
+      <div class="C item">Main Content</div>
+      <div class="D item">Extra Content</div>
+      <div class="E item">Footer</div>
+      
+    </div>
+    
+</body>
+</html>
